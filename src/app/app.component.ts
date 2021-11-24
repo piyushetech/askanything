@@ -12,6 +12,7 @@ export class AppComponent {
  data:any = []
  list:any = []
   constructor(private http: HttpClient) { }
+  title="my-first-project";
 
   ngOnInit() {      
       // Simple GET request with response type <any>
